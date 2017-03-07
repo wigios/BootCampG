@@ -3,15 +3,14 @@ package pageObjectMyStore.Generales;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import utils.BasePage;
 
-public class MyAccountPage {
+public class MyAccountPage  extends BasePage {
 	
 	public WebDriver driver;
 	
 	public MyAccountPage(WebDriver driver){
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
 	
     @FindBy(xpath="//div[@id='columns']/div/a/i")

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33691" started-at="2017-03-07T19:47:45Z" finished-at="2017-03-07T19:48:18Z">
+  <suite name="Suite" duration-ms="33406" started-at="2017-03-07T21:42:41Z" finished-at="2017-03-07T21:43:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="33691" started-at="2017-03-07T19:47:45Z" finished-at="2017-03-07T19:48:18Z">
+    <test name="Test" duration-ms="33406" started-at="2017-03-07T21:42:41Z" finished-at="2017-03-07T21:43:14Z">
       <class name="shoppingCart.ShoppingCartArticles">
-        <test-method status="PASS" signature="launchDriverChain(java.lang.String)[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="launchDriverChain" duration-ms="33447" started-at="2017-03-07T14:47:45Z" finished-at="2017-03-07T14:48:18Z">
+        <test-method status="PASS" signature="launchDriverChain(java.lang.String)[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="launchDriverChain" duration-ms="33170" started-at="2017-03-07T16:42:41Z" finished-at="2017-03-07T16:43:14Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriverChain -->
-        <test-method status="PASS" signature="ValidatTest()[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="ValidatTest" is-config="true" duration-ms="148" started-at="2017-03-07T14:48:18Z" finished-at="2017-03-07T14:48:18Z">
+        <test-method status="PASS" signature="ValidatTest()[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="ValidatTest" is-config="true" duration-ms="139" started-at="2017-03-07T16:43:14Z" finished-at="2017-03-07T16:43:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatTest -->
-        <test-method status="PASS" signature="Terminacion()[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="Terminacion" is-config="true" duration-ms="70" started-at="2017-03-07T14:48:18Z" finished-at="2017-03-07T14:48:18Z">
+        <test-method status="PASS" signature="Terminacion()[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="Terminacion" is-config="true" duration-ms="64" started-at="2017-03-07T16:43:14Z" finished-at="2017-03-07T16:43:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminacion -->

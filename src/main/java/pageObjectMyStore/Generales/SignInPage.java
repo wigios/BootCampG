@@ -3,15 +3,14 @@ package pageObjectMyStore.Generales;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import utils.BasePage;
 
-public class SignInPage {
+public class SignInPage extends BasePage {
 	
 	public WebDriver driver;
 	
 	public SignInPage(WebDriver driver){
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
 	
 	@FindBy(id="email")
