@@ -9,22 +9,18 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import chain.ShoppingChain;
+import utils.BaseTest;
 import utils.ExcelUtils;
 import utils.Utils;
 
-public class ShoppingCartArticles {
+public class ShoppingCartArticles implements BaseTest{
 
 	public WebDriver driver;
 
-	public String resultExpected;
 	public String resultObtenido;
-
 	public ShoppingChain shoppingChain;
-	public boolean validador;
 
 	public ShoppingCartArticles() {
-		this.resultExpected = "Your order on My Store is complete.";
-		validador = false;
 	}
 
 	@Parameters("browser")
@@ -35,9 +31,8 @@ public class ShoppingCartArticles {
 			shoppingChain = new ShoppingChain(driver);
 			resultObtenido = shoppingChain.launchShooping();
 
-			Assert.assertEquals(resultExpected, resultObtenido);
+			Assert.assertEquals(RESULT_EXPECTED, resultObtenido);
 
-			validador = true;
 		}
 
 		catch (Exception e) {

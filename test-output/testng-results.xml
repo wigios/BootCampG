@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33789" started-at="2017-03-10T19:14:36Z" finished-at="2017-03-10T19:15:10Z">
+  <suite name="Suite" duration-ms="34576" started-at="2017-03-10T19:37:38Z" finished-at="2017-03-10T19:38:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="33789" started-at="2017-03-10T19:14:36Z" finished-at="2017-03-10T19:15:10Z">
+    <test name="Test" duration-ms="34576" started-at="2017-03-10T19:37:38Z" finished-at="2017-03-10T19:38:13Z">
       <class name="shoppingCart.ShoppingCartArticles">
-        <test-method status="PASS" signature="launchDriverChain(java.lang.String)[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="launchDriverChain" duration-ms="33472" started-at="2017-03-10T14:14:36Z" finished-at="2017-03-10T14:15:09Z">
+        <test-method status="PASS" signature="launchDriverChain(java.lang.String)[pri:0, instance:shoppingCart.ShoppingCartArticles@5442a311]" name="launchDriverChain" duration-ms="34325" started-at="2017-03-10T14:37:38Z" finished-at="2017-03-10T14:38:12Z">
           <params>
             <param index="0">
               <value>
@@ -18,18 +18,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriverChain -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="takeScreenShotOnFailure" is-config="true" duration-ms="188" started-at="2017-03-10T14:15:09Z" finished-at="2017-03-10T14:15:09Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:shoppingCart.ShoppingCartArticles@5442a311]" name="takeScreenShotOnFailure" is-config="true" duration-ms="167" started-at="2017-03-10T14:38:12Z" finished-at="2017-03-10T14:38:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=launchDriverChain status=SUCCESS method=ShoppingCartArticles.launchDriverChain(java.lang.String)[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d] output={null}]]]>
+                <![CDATA[[TestResult name=launchDriverChain status=SUCCESS method=ShoppingCartArticles.launchDriverChain(java.lang.String)[pri:0, instance:shoppingCart.ShoppingCartArticles@5442a311] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="Terminacion()[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="Terminacion" is-config="true" duration-ms="100" started-at="2017-03-10T14:15:09Z" finished-at="2017-03-10T14:15:10Z">
+        <test-method status="PASS" signature="Terminacion()[pri:0, instance:shoppingCart.ShoppingCartArticles@5442a311]" name="Terminacion" is-config="true" duration-ms="60" started-at="2017-03-10T14:38:13Z" finished-at="2017-03-10T14:38:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminacion -->
