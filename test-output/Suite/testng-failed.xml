@@ -7,7 +7,7 @@
       <class name="shoppingCart.ShoppingCartArticles">
         <methods>
           <include name="launchDriverChain" invocation-numbers="0"/>
-          <include name="ValidatTest"/>
+          <include name="takeScreenShotOnFailure"/>
           <include name="Terminacion"/>
         </methods>
       </class> <!-- shoppingCart.ShoppingCartArticles -->

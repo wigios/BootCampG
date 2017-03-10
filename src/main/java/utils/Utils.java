@@ -82,12 +82,15 @@ public class Utils {
 		try {
 			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			synchronized (scrFile) {
-				FileUtils.copyFile(scrFile, new File("D://EvidenciasAvianca//" + "Corrida_1" + "//" + anio + "_" + mes
+				FileUtils.copyFile(scrFile, new File("D://misProyectos//workspace//mystore.globant//FailEvidences//" + "Corrida_1" + "//" + anio + "_" + mes
 						+ "_" + dia + "_" + hora + "_" + minuto + "_" + segundo + ".jpg"));
 			}
 		} catch (Exception e) {
 			e.getMessage();
 		}
+		
+		// File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		// FileUtils.copyFile(scrFile, new File("D:\\temp\\testScreenShot.jpg"));
 	}
 
 }

@@ -55,7 +55,7 @@ public class ExcelUtils {
 				Cell.setCellValue(Result);
 			}
 			// Constant variables Test Data path and Test Data file name
-			FileOutputStream fileOut = new FileOutputStream("D://DataTestPractice.xlsx");
+			FileOutputStream fileOut = new FileOutputStream("D://misProyectos//workspace//mystore.globant//DataTestPractice.xlsx");
 			ExcelWBook.write(fileOut);
 			fileOut.flush();
 			fileOut.close();

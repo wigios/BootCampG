@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33406" started-at="2017-03-07T21:42:41Z" finished-at="2017-03-07T21:43:14Z">
+  <suite name="Suite" duration-ms="33789" started-at="2017-03-10T19:14:36Z" finished-at="2017-03-10T19:15:10Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="33406" started-at="2017-03-07T21:42:41Z" finished-at="2017-03-07T21:43:14Z">
+    <test name="Test" duration-ms="33789" started-at="2017-03-10T19:14:36Z" finished-at="2017-03-10T19:15:10Z">
       <class name="shoppingCart.ShoppingCartArticles">
-        <test-method status="PASS" signature="launchDriverChain(java.lang.String)[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="launchDriverChain" duration-ms="33170" started-at="2017-03-07T16:42:41Z" finished-at="2017-03-07T16:43:14Z">
+        <test-method status="PASS" signature="launchDriverChain(java.lang.String)[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="launchDriverChain" duration-ms="33472" started-at="2017-03-10T14:14:36Z" finished-at="2017-03-10T14:15:09Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriverChain -->
-        <test-method status="PASS" signature="ValidatTest()[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="ValidatTest" is-config="true" duration-ms="139" started-at="2017-03-07T16:43:14Z" finished-at="2017-03-07T16:43:14Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="takeScreenShotOnFailure" is-config="true" duration-ms="188" started-at="2017-03-10T14:15:09Z" finished-at="2017-03-10T14:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchDriverChain status=SUCCESS method=ShoppingCartArticles.launchDriverChain(java.lang.String)[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidatTest -->
-        <test-method status="PASS" signature="Terminacion()[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="Terminacion" is-config="true" duration-ms="64" started-at="2017-03-07T16:43:14Z" finished-at="2017-03-07T16:43:14Z">
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="Terminacion()[pri:0, instance:shoppingCart.ShoppingCartArticles@343f4d3d]" name="Terminacion" is-config="true" duration-ms="100" started-at="2017-03-10T14:15:09Z" finished-at="2017-03-10T14:15:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminacion -->
