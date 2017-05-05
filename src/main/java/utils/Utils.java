@@ -5,6 +5,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.http.conn.ssl.BrowserCompatHostnameVerifier;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -34,10 +35,11 @@ public class Utils {
 
 			Browser browser;
 			browser = Browser.valueOf(sBrowserName);
+			
+			//switch (browser.ordinal()) {
+			switch (browser) {
 
-			switch (browser.ordinal()) {
-
-			case 0:
+			case CHROME:
 				System.setProperty("webdriver.chrome.driver", "D://1_Documentos//Selenium//Drivers//chromedriver.exe");
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("--start-maximized");
@@ -47,9 +49,17 @@ public class Utils {
 				System.out.println(oldTab);
 				break;
 
-			case 1:
+			case FIREFOX:
 				System.setProperty("webdriver.gecko.driver", "D:\\1_Documentos\\Selenium\\Drivers\\geckodriver.exe");
 				driver = new FirefoxDriver();
+				break;
+				
+			case IE:
+				System.out.println("Internet explorer");
+				break;
+				
+			case SAFARI: 
+				System.out.println("safari");
 				break;
 
 			default:

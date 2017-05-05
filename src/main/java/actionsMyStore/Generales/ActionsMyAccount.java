@@ -1,8 +1,6 @@
 package actionsMyStore.Generales;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
-
 import pageObjectMyStore.Generales.MyAccountPage;
 import utils.Utils;
 
